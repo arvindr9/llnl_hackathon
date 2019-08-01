@@ -6,4 +6,4 @@
 
 ## Running the model
 
-`python3 classify_image.py --model.py --model ~/Downloads`
+`ppython3 classify_image.py --model ~/Downloads/mobilenet_v2_1.0_224_quant_edgetpu.tflite --label ~/Downloads/imagenet_labels.txt --image (path to image)`
